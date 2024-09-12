@@ -16,9 +16,9 @@ command-description:
   unlink: "Unlink your Discord account from Minecraft."
   invite: "Get the proximity voice chat on your server."
 menu:
-  invite-footer: "Want Skoice on your server? Type \"/invite\"!"
-  review-footer: "Having fun with Skoice? Consider leaving a review on SpigotMC!"
-  contributors-footer: "Skoice • carlodrift, Lucas_Cdry and contributors"
+  invite-footer: ""
+  review-footer: ""
+  contributors-footer: ""
   configuration:
     title: "Configuration"
   server:
@@ -49,7 +49,7 @@ menu:
         description: "Horizontal Radius: %s blocks — Vertical Radius: %s blocks"
   active-worlds:
     title: "Active Worlds"
-    description: "Choose the worlds where Skoice is active."
+    description: "Choose the worlds where VC is active."
     select-menu:
       placeholder: "Please select the desired worlds."
   included-players:
@@ -89,13 +89,13 @@ menu:
       select-option:
         new-voice-channel:
           label: "New Voice Channel"
-          description: "Skoice will automatically set up a voice channel."
+          description: "DC bot will automatically set up a voice channel."
   text-chat:
     title: "Text Chat"
     description: "Choose whether or not players can send text messages in proximity channels."
   channel-visibility:
     title: "Channel Visibility"
-    description: "Toggle the visibility of the temporary channels created by Skoice."
+    description: "Toggle the visibility of the temporary channels."
   in-game-messages:
     title: "In-Game Messages"
   login-notification:
@@ -125,7 +125,7 @@ menu:
     title: "Advanced Settings"
   link-synchronization:
     title: "Link Synchronization"
-    shortened-description: "Toggle the synchronization of external plugins with Skoice."
+    shortened-description: "Toggle the synchronization of external plugins."
     description: "Toggle the synchronization of external plugins with Skoice. When players link their accounts via Skoice or a selected plugin, real-time synchronization occurs on both sides. Updating this option requires you to restart your Minecraft server for it to take effect."
     select-menu:
       placeholder: "Please select the desired plugins."
@@ -166,10 +166,10 @@ field:
     description: "[Get the plugin](https://www.spigotmc.org/resources/skoice-proximity-voice-chat.82861/) and install it on your Minecraft server."
   donating:
     title: "Donating"
-    description: "Skoice is a free software. If you like it, you can help us by [donating](https://opencollective.com/skoice)."
+    description: ""
   contributing:
     title: "Contributing"
-    description: "Interested in helping us shape the future of Skoice? [Contribute on our GitHub page](https://github.com/Skoice/skoice) and [translate our plugin with Crowdin](https://crowdin.com/project/skoice)!"
+    description: ""
   long-range-mode:
     title: "Long-Range Mode"
     description: "Choose this mode if you plan to play open world game modes."
@@ -187,7 +187,7 @@ field:
     description: "Choose this channel to discover and test our latest features that are not yet released to the public. This version may contain bugs."
   verification-code:
     title: "Verification Code"
-    description: "Type `/skoice link %s` in game to complete the process."
+    description: "Type `/dragoncote link %s` in game to complete the process."
   account-linked:
     title: "Account Linked"
     description: "Your Discord account has been linked to Minecraft. Join the voice channel %s to use the proximity voice chat."
@@ -243,6 +243,6 @@ text-input:
     label: "Horizontal Radius"
   vertical-radius:
     label: "Vertical Radius"
-display-issues: "If you cannot see the message above, you probably have disabled embeds in Discord settings. To use Skoice properly, you must enable them by following this path: `App Settings › Chat › Show embeds and preview website links pasted into chat`."
+display-issues: "If you cannot see the message above, you probably have disabled embeds in Discord settings. To use the bot properly, you must enable them by following this path: `App Settings › Chat › Show embeds and preview website links pasted into chat`."
 voice-channel-status: "Unable to talk — No players nearby"
 proximity-channel-name: "Proximity Channel"
